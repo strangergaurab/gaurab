@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h2>Javascript Functions</h2>
+ <p>This example calls a function which perform a calcualtion of two number
+ </p>
+ <body>
+ Enter the first number : <input  id="first">
+ Enter the second number :  <input id="second">
+<button onclick="Add()">Add</button>
+   <input id="answer">
+   <script>
+  function Add() {
+       let a,b,c;
+       a = Number(document.getElementById("first").value);
+       b = Number(document.getElementById("second").value);
+       c = a+b;
+       document.getElementById("answer").value = c;
+
+  }
+
+
+
+
+   </script>
+</body>
+</html>
